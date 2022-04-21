@@ -17,6 +17,8 @@ repositories {
 }
 
 dependencies {
+    // JavaParser API
+    implementation group: 'com.github.javaparser', name: 'javaparser-core', version: '3.23.1'
     // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 
